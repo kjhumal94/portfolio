@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JongHun Kim.</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<style>
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+  font-family: "Helvetica";
+  background-color: #1a1a1a;
+}
+
+/*navbar*/
+.navbar{
+	height: 60px;
+}
+.navbar #logo{
+	line-height: 60px;
+	padding-left: 30px;
+}
+.navbar #logo img{
+	vertical-align: middle;
+}
+#menu{
+	float: right;
+	list-style: none;
+	padding-right: 30px;
+	line-height: 60px;
+}
+#menu li{
+	float: left;
+	margin-left: 20px;
+}
+#menu li a{
+	text-decoration: none;
+	color: #545454;
+	font-size: 16px;
+}
+#menu img{
+	vertical-align: middle;
+}
+#menu .Home{
+color: #f7f7f7;
+	font-weight: 900;
+}
+#menu .Projects{
+}
+#menu .About{
+
+}
+/*content*/
+.content{
+	height: 600px;
+	background-color: gray;
+}
+
+.carousel-inner{
+	height: 500px;
+
+
+}
+.carousel-item{
+	background-color: gray;
+	height: 100%;
+}
+
+.carousel-item.item1{
+	background-image: url(banner1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.carousel-item.item2{
+	background-image: url(banner1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.carousel-item.item3{
+	background-image: url(banner1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.carousel-item.item4{
+	background-image: url(banner1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+</style>
+
+<body>
+
+<div class="navbar">
+	<a href="Home.html" id="logo">
+		<img src="logo_white.png" height="24">
+		</a>
+
+	<ul id="menu">
+		<li><a href="Home.html" class="Home">Home</a></li>
+		<li><a href="Projects.html" class="Projects">Projects</a></li>
+		<li><a href="About.html" class="About">About/Contact</a></li>
+
+		<li><a href="https://www.instagram.com/dvsvp/?hl=ko" target="_blank">
+			<img src="insta.png" height="15">
+		</a></li>
+
+		<li><a href="https://www.facebook.com/kjhumal" target="_blank">
+			<img src="facebook.png" height="15">
+		</a></li>
+
+		<li><a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">
+			<img src="email.png" height="15">
+		</a></li>
+	</ul>
+</div>
+
+<div class="projects">
+	<div class="project1">
+		<img src="banner1.jpg" width="100%">
+	</div>
+
+	<div class="project2">
+		<img src="banner1.jpg" width="100%" >
+	</div>
+
+	<div class="project3">
+	</div>
+</div>
+
+
+<div class="bd-example">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+  		<div class="carousel-item item1 active">
+  		</div>
+  		<div class="carousel-item item2">
+  		</div>
+  		<div class="carousel-item item3">
+  		</div>
+  		<div class="carousel-item item4">
+  		</div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
